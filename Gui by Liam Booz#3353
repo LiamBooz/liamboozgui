@@ -39,3 +39,28 @@ local DaHoodSection = DaHood:NewSection("Da Hood Scripts")
 DaHoodSection:NewButton("Nyula", "Powerful script", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))() 
 end)
+
+
+DaHoodSection:NewButton("pluto", "da hood script ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
+
+
+DaHoodSection:NewButton("Rayx", "da hood script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+
+DaHoodSection:NewButton("Agent", "Da hood scripts", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+end)
+
+
+DaHoodSection:NewButton("Faded", "Da hood script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
+end)
+
+
+DaHoodSection:NewButton("SwagMode", "Da hood script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
