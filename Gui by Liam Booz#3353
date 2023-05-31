@@ -1,0 +1,41 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Liam Gui", "Ocean")
+
+-- BLOX FRUIT
+local BloxFruit = Window:NewTab("Blox fruit")
+local BloxFruitSection = BloxFruit:NewSection("blox fruit scripts")
+
+
+BloxFruitSection:NewButton("Auto Chest Farm ", "Risk Kick", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+end)
+
+
+BloxFruitSection:NewButton("Domadicoof", "keyless", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+
+end)
+
+
+BloxFruitSection:NewButton("Dokin", "keyless", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minded102/dokinbog/main/README.md", true))()
+end)
+
+
+BloxFruitSection:NewButton("Pado", "Keyless", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+end)
+
+
+BloxFruitSection:NewButton("DarkHub", "Key", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+-- DaHood
+local DaHood= Window:NewTab("DaHood")
+local DaHoodSection = DaHood:NewSection("Da Hood Scripts")
+
+
+DaHoodSection:NewButton("Nyula", "Powerful script", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))() 
+end)
