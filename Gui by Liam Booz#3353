@@ -3,7 +3,7 @@ local Window = Library.CreateLib("Liam Gui", "Ocean")
 
 -- BLOX FRUIT
 local BloxFruit = Window:NewTab("Blox fruit")
-local BloxFruitSection = BloxFruit:NewSection("blox fruit scripts")
+local BloxFruitSection = BloxFruit:NewSection("click to execute")
 
 
 BloxFruitSection:NewButton("Auto Chest Farm ", "Risk Kick", function()
@@ -33,7 +33,7 @@ end)
 
 -- DaHood
 local DaHood= Window:NewTab("DaHood")
-local DaHoodSection = DaHood:NewSection("Da Hood Scripts")
+local DaHoodSection = DaHood:NewSection("click to execute")
 
 
 DaHoodSection:NewButton("Nyula", "Powerful script", function()
@@ -111,4 +111,51 @@ game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(keyPr
         end
 end)
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
+end)
+
+-- Extra
+local Extra = Window:NewTab("Extra")
+local ExtraSection = Extra:NewSection("click to execute")
+
+
+ExtraSection:NewButton("Animatons Changer", "Everyone can see your animatons if you change", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LunarWareOP/Animation-Changer-Source/main/Script", true))()
+end)
+
+
+ExtraSection:NewButton("Bypass chat", "you can say curse word by executing the script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+end)
+
+
+ExtraSection:NewButton("Fps Boost", "Boots your fps", function()
+    _G.Settings = {
+        Players = {
+            ["Ignore Me"] = true, -- Ignore your Character
+            ["Ignore Others"] = true -- Ignore other Characters
+        },
+        Meshes = {
+            Destroy = false, -- Destroy Meshes
+            LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+        },
+        Images = {
+            Invisible = true, -- Invisible Images
+            LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+            Destroy = false, -- Destroy Images
+        },
+        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+        ["No Explosions"] = true, -- Makes Explosion's invisible
+        ["No Clothes"] = true, -- Removes Clothing from the game
+        ["Low Water Graphics"] = true, -- Removes Water Quality
+        ["No Shadows"] = true, -- Remove Shadows
+        ["Low Rendering"] = true, -- Lower Rendering
+        ["Low Quality Parts"] = true -- Lower quality parts
+    }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+end)
+
+
+DaHoodSection:NewButton("artas", "aimbot script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/artas01/main/gat'))()
 end)
