@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cyber Gui", "Ocean")
+local Window = Library.CreateLib("Liam Gui", "Ocean")
 
 -- BLOX FRUIT
 local BloxFruit = Window:NewTab("Blox fruit")
@@ -1519,4 +1519,13 @@ end)
 
 YeetSection:NewButton("Yeet a friend script 2", "click to execute", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0yeet", true))()
+end)
+
+
+--DaHoodModded
+local DaHoodModded = Window:NewTab("Da Hood Modded")
+local DaHoodModdedSection = DaHoodModded:NewSection("click to execute")
+
+DaHoodModdedSection:NewButton("chariot",  "click to execute", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
 end)
