@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Liam Gui", "Ocean")
+local Window = Library.CreateLib("Cyber Gui", "Ocean")
 
 -- BLOX FRUIT
 local BloxFruit = Window:NewTab("Blox fruit")
