@@ -380,7 +380,7 @@ DaHoodSection:NewButton("Animaton pack", "click to get free animaton pack", func
 end)
 
 
-DaHoodSection:NewToggle("Slient Aim", "Slient Aim", function(state)
+DaHoodSection:NewToggle("slient aim and macro slient - b macro - q" , "Slient Aim", function(state)
     if state then
         
 getgenv().FovKey = "b" -- fov switch key, if you dont wanna look blatant long range rev
